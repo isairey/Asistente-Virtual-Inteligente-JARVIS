@@ -197,7 +197,7 @@ python main.py
 ## 📂 Estructura del Proyecto
 
 ```text
-JARVIS
+Asistente-Virtual-Inteligente-JARVIS
 │
 ├── driver/
 │
@@ -277,11 +277,13 @@ Si deseas colaborar:
 
 Este proyecto está distribuido bajo la licencia MIT.
 
-Desarrollado originalmente por Atharva Ingle.
+
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Desarrollador
+
+**Isai Reyes - FullStack Developer**
 
 Proyecto inspirado en el asistente J.A.R.V.I.S. de Iron Man.
 
