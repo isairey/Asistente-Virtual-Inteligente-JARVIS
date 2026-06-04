@@ -67,13 +67,6 @@ Este proyecto permite automatizar diversas tareas diarias mediante comandos de v
 
 ---
 
-## 🎥 Demostración
-
-Puedes ver una demostración del proyecto en el siguiente video:
-
-https://www.youtube.com/watch?v=oKtrHy0ERNA
-
----
 
 ## 🛠️ Tecnologías Utilizadas
 
