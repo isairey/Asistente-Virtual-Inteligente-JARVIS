@@ -110,8 +110,8 @@ https://developers.google.com/calendar/auth
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/usuario/JARVIS.git
-cd JARVIS
+git clone https://github.com/isairey/Asistente-Virtual-Inteligente-JARVIS.git
+cd Asistente-Virtual-Inteligente-JARVIS
 ```
 
 ### 2. Crear el archivo de configuración
