@@ -1,94 +1,295 @@
-# JARVIS (Just a Rather Very Intelligent System)
+# 🤖 JARVIS - Asistente Virtual Inteligente
 
-#### This was my attempt to make a voice assistant similar to JARVIS (in iron man movie)
-#### Let's be honest, it's not as intelligent as in the movie, but it can do a lot of cool things and automate your daily tasks you do on your personal computers/laptops.
+![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
+![Status](https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge)
+![License](https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge)
 
-## Built with
+## 📌 Descripción
 
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+**JARVIS (Just a Rather Very Intelligent System)** es un asistente virtual desarrollado en Python inspirado en el famoso sistema de inteligencia artificial mostrado en las películas de Iron Man.
 
+Este proyecto permite automatizar diversas tareas diarias mediante comandos de voz, ofreciendo una experiencia interactiva capaz de controlar aplicaciones, consultar información en línea, reproducir contenido multimedia y ejecutar múltiples funciones del sistema operativo.
 
-## Features
+---
 
-#### For a cool demo of this project watch this [YouTube video](https://www.youtube.com/watch?v=oKtrHy0ERNA)
+## 🚀 Características Principales
 
-It can do a lot of cool things, some of them being:
+### 🗣️ Interacción por Voz
+- Saluda al usuario.
+- Reconoce comandos de voz.
+- Responde mediante síntesis de voz.
 
-- Greet user
-- Tell current time and date
-- Launch applications/softwares 
-- Open any website
-- Tells about weather of any city
-- Open location of any place plus tells the distance between your place and queried place
-- Tells your current system status (RAM Usage, battery health, CPU usage)
-- Tells about your upcoming events (Google Calendar)
-- Tells about any person (via Wikipedia)
-- Can search anything on Google 
-- Can play any song on YouTube
-- Tells top headlines (via Times of India)
-- Plays music
-- Send email (with subject and content)
-- Calculate any mathematical expression (example: Jarvis, calculate x + 135 - 234 = 345)
-- Answer any generic question (via Wolframalpha)
-- Take important note in notepad
-- Tells a random joke
-- Tells your IP address
-- Can switch the window
-- Can take screenshot and save it with custom filename
-- Can hide all files in a folder and also make them visible again
-- Has a cool Graphical User Interface
+### 📅 Información General
+- Consulta fecha y hora actual.
+- Obtiene información meteorológica de cualquier ciudad.
+- Muestra noticias destacadas.
+- Consulta información de personas mediante Wikipedia.
+- Responde preguntas generales usando WolframAlpha.
 
-## API Keys
-To run this program you will require a bunch of API keys. Register your API key by clicking the following links
+### 🌐 Navegación Web
+- Abre cualquier sitio web.
+- Realiza búsquedas en Google.
+- Reproduce videos y música desde YouTube.
 
-- [OpenWeatherMap API](https://openweathermap.org/api)
-- [Wolframalpha](https://www.wolframalpha.com/)
-- [Google Calendar API](https://developers.google.com/calendar/auth)
-  
-## Installation
+### 💻 Control del Sistema
+- Abre aplicaciones instaladas.
+- Cambia entre ventanas activas.
+- Captura pantallas con nombres personalizados.
+- Obtiene información del sistema:
+  - Uso de CPU
+  - Uso de memoria RAM
+  - Estado de batería
+- Muestra la dirección IP pública.
 
-- First clone the repo
-- Make a config.py file and include the following in it:
-    ```weather_api_key = "<your_api_key>"
-    email = "<your_email>"
-    email_password = "<your_email_password>"
-    wolframalpha_id = "<your_wolframalpha_id>"
-- Copy the config.py file in Jarvis>config folder
-- Make a new python environment
-    If you are using anaconda just type ```conda create -n jarvis python==3.8.5 ``` in anaconda prompt
-- To activate the environment ``` conda activate jarvis ```
-- Navigate to the directory of your project
-- Install all the requirements by just hitting ``` pip install -r requirements.txt ```
-- Install PyAudio from wheel file by following instructions given [here](https://stackoverflow.com/a/55630212)
-- Run the program by ``` python main.py ```
-- Enjoy !!!!
+### 📍 Ubicación y Mapas
+- Busca ubicaciones.
+- Calcula distancias entre lugares.
+- Abre ubicaciones directamente en mapas.
 
-## Code Structure
+### 📧 Productividad
+- Envía correos electrónicos.
+- Guarda notas importantes.
+- Consulta eventos próximos desde Google Calendar.
 
+### 🎵 Entretenimiento
+- Reproduce música.
+- Cuenta chistes aleatorios.
+- Reproduce canciones desde YouTube.
 
-    ├── driver
-    ├── Jarvis              # Main folder for features 
-    │   ├── config          # Contains all secret API Keys
-    │   ├── features        # All functionalities of JARVIS 
-    │   └── utils           # GUI images
-    ├── __init__.py         # Definition of feature's functions
-    ├── gui.ui              # GUI file (in .ui format)
-    ├── main.py             # main driver program of Jarvis
-    ├── requirements.txt    # all dependencies of the program
+### 🧮 Herramientas Inteligentes
+- Resuelve expresiones matemáticas.
+- Realiza cálculos complejos.
+- Responde preguntas mediante WolframAlpha.
 
-- The code structure if pretty simple. The code is completely modularized and is highly customizable
-- To add a new feature:
-  -  Make a new file in features folder, write the feature's function you want to include
-  - Add the function's definition to __init__.py
-  - Add the voice commands through which you want to invoke the function
+### 🎨 Interfaz Gráfica
+- Incluye una interfaz gráfica amigable.
+- Diseño modular y personalizable.
 
-## Contribute
-Please read [CONTRIBUTING.md](https://github.com/Gladiator07/JARVIS/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+---
 
-## License
-This project is licensed under [MIT License](https://github.com/Gladiator07/JARVIS/blob/master/LICENSE) 2021 Atharva Ingle
+## 🎥 Demostración
 
-## Future Improvements
-- Generalized conversations can be made possible by incorporating Natural Language Processing
-- GUI can be made more nicer to look at and functional
-- More functionalities can be added
+Puedes ver una demostración del proyecto en el siguiente video:
+
+https://www.youtube.com/watch?v=oKtrHy0ERNA
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+- Python 3.8+
+- PyQt5
+- SpeechRecognition
+- PyAudio
+- pyttsx3
+- Wikipedia API
+- OpenWeatherMap API
+- WolframAlpha API
+- Google Calendar API
+- Selenium
+- Requests
+
+---
+
+## 🔑 APIs Necesarias
+
+Para ejecutar correctamente el proyecto es necesario obtener las siguientes claves API:
+
+### OpenWeatherMap
+Permite consultar información meteorológica.
+
+https://openweathermap.org/api
+
+### WolframAlpha
+Permite responder preguntas y resolver operaciones matemáticas.
+
+https://www.wolframalpha.com/
+
+### Google Calendar API
+Permite consultar eventos del calendario.
+
+https://developers.google.com/calendar/auth
+
+---
+
+## ⚙️ Instalación
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/usuario/JARVIS.git
+cd JARVIS
+```
+
+### 2. Crear el archivo de configuración
+
+Crear un archivo llamado:
+
+```python
+config.py
+```
+
+Con el siguiente contenido:
+
+```python
+weather_api_key = "TU_API_KEY"
+
+email = "TU_CORREO"
+
+email_password = "TU_CONTRASEÑA"
+
+wolframalpha_id = "TU_WOLFRAM_ID"
+```
+
+Copiar el archivo dentro de:
+
+```bash
+Jarvis/config/
+```
+
+### 3. Crear entorno virtual
+
+Con Anaconda:
+
+```bash
+conda create -n jarvis python=3.8.5
+```
+
+Activar entorno:
+
+```bash
+conda activate jarvis
+```
+
+O con venv:
+
+```bash
+python -m venv venv
+```
+
+Activar:
+
+```bash
+# Windows
+venv\Scripts\activate
+
+# Linux / Mac
+source venv/bin/activate
+```
+
+### 4. Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Instalar PyAudio
+
+En Windows puede requerirse instalación manual mediante wheel.
+
+```bash
+pip install PyAudio
+```
+
+Si presenta errores, instalar mediante archivo `.whl`.
+
+### 6. Ejecutar la aplicación
+
+```bash
+python main.py
+```
+
+---
+
+## 📂 Estructura del Proyecto
+
+```text
+JARVIS
+│
+├── driver/
+│
+├── Jarvis/
+│   ├── config/
+│   │   └── APIs y configuraciones
+│   │
+│   ├── features/
+│   │   └── Funcionalidades del asistente
+│   │
+│   └── utils/
+│       └── Recursos gráficos
+│
+├── __init__.py
+├── gui.ui
+├── main.py
+└── requirements.txt
+```
+
+---
+
+## ➕ Agregar Nuevas Funcionalidades
+
+El proyecto es completamente modular.
+
+Para agregar una nueva característica:
+
+### Paso 1
+Crear un nuevo archivo dentro de:
+
+```bash
+Jarvis/features/
+```
+
+### Paso 2
+Implementar la función correspondiente.
+
+### Paso 3
+Importar la función en:
+
+```python
+__init__.py
+```
+
+### Paso 4
+Agregar los comandos de voz que activarán dicha función.
+
+---
+
+## 📈 Posibles Mejoras Futuras
+
+- Integración con modelos de Inteligencia Artificial modernos.
+- Conversaciones más naturales mediante NLP.
+- Mejora de la interfaz gráfica.
+- Compatibilidad multiplataforma avanzada.
+- Integración con dispositivos IoT.
+- Automatización doméstica.
+- Reconocimiento facial.
+- Sistema de aprendizaje personalizado.
+
+---
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas.
+
+Si deseas colaborar:
+
+1. Haz un Fork del proyecto.
+2. Crea una rama para tu funcionalidad.
+3. Realiza los cambios.
+4. Envía un Pull Request.
+
+---
+
+## 📜 Licencia
+
+Este proyecto está distribuido bajo la licencia MIT.
+
+Desarrollado originalmente por Atharva Ingle.
+
+---
+
+## 👨‍💻 Autor
+
+Proyecto inspirado en el asistente J.A.R.V.I.S. de Iron Man.
+
+Adaptado y mejorado para fines educativos y de automatización personal utilizando Python.
